@@ -121,7 +121,7 @@ printf "${CYAN}---------------------------${NC}\n"
 printf "${CYAN}Network Device Information:${NC}\n"
 printf "${CYAN}---------------------------${NC}\n" 
 ifconfig -a
-ip
+ip address
 echo ""
 
 printf "${CYAN}---------------------------${NC}\n" 
