@@ -205,7 +205,7 @@ printf "${BLUE}###############################################${NC}\n"
 echo ""
 printf "${GREEN}TO SEE A LIST OF ALL INSTALLED PACKAGES, SEE THE 'INSTALLED_PACKAGES.txt' FILE${NC}\n"
 dpkg -s > INSTALLED_PACKAGES.txt
-dpkg -l >> INSATALLED_PACKAGES.txt
+dpkg -l >> INSTALLED_PACKAGES.txt
 
 echo ""
 echo ""
